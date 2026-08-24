@@ -10,46 +10,118 @@
 
     <div class="max-w-2xl w-full space-y-10">
         
+        <!-- Kopfbereich (Header) -->
         <header class="border-b border-[#30363d] pb-6">
             <h1 class="text-3xl font-bold text-[#58a6ff] mb-2">Farzaneh Soghani</h1>
             <h2 class="text-lg font-medium text-[#8b949e] mb-4">IHK-zertifizierte Fachinformatikerin für Anwendungsentwicklung</h2>
             <p class="text-sm text-[#8b949e]">Leidenschaftliche Full-Stack-Entwicklerin mit Fokus auf saubere Python/Flask-Webanwendungen.</p>
         </header>
 
+        <!-- Über mich Sektion -->
         <section>
             <h2 class="text-xl font-semibold border-b border-[#30363d] pb-2 mb-4 text-[#f0f6fc]">Über mich</h2>
             <p class="text-sm leading-relaxed text-[#8b949e]">Ich entwickle moderne, benutzerfreundliche Webanwendungen und bringe fundierte Kenntnisse in Backend- und Frontend-Technologien mit.</p>
         </section>
 
+        <!-- Projekte Sektion -->
         <section>
             <h2 class="text-xl font-semibold border-b border-[#30363d] pb-2 mb-4 text-[#f0f6fc]">Projekte</h2>
-            <div class="bg-[#161b22] border border-[#30363d] rounded-lg p-5 shadow-md hover:border-[#58a6ff] transition">
-                <h3 class="text-lg font-bold text-[#58a6ff] mb-2">FlowLine</h3>
-                <p class="text-sm text-[#8b949e] mb-3">Eine robuste Full-Stack-Webanwendung zur strukturierten Verwaltung von Einträgen mit integrierter Echtzeit-Suche, Benutzerauthentifizierung (Flask-Login), Mehrsprachigkeit (i18n) und PDF-Export.</p>
+            <div class="space-y-6">
                 
-                <div class="text-xs font-mono text-[#58a6ff] bg-[#0d1117] px-3 py-1.5 rounded inline-block border border-[#30363d] mb-4">
-                    Tech Stack: Python, Flask, Jinja2, SQLite/PostgreSQL
-                </div>
+                <!-- Erste Karte: FlowLine -->
+                <div class="bg-[#161b22] border border-[#30363d] rounded-lg p-5 shadow-md hover:border-[#58a6ff] transition">
+                    <h3 class="text-lg font-bold text-[#58a6ff] mb-2">FlowLine</h3>
+                    <p class="text-sm text-[#8b949e] mb-3">Eine robuste Full-Stack-Webanwendung zur strukturierten Verwaltung von Einträgen mit integrierter Echtzeit-Suche, Benutzerauthentifizierung (Flask-Login), Mehrsprachigkeit (i18n) und PDF-Export.</p>
+                    
+                    <div class="text-xs font-mono text-[#58a6ff] bg-[#0d1117] px-3 py-1.5 rounded inline-block border border-[#30363d] mb-4">
+                        Tech Stack: Python, Flask, Jinja2, SQLite/PostgreSQL
+                    </div>
 
-                <div class="mt-4 pt-4 border-t border-[#30363d] flex items-center gap-4">
-                    <img src="QR-Code-FlowLine.png" alt="FlowLine QR Code" class="w-20 h-20 bg-white p-1 rounded border border-[#30363d]">
-                    <div class="text-xs text-[#8b949e]">
-                        <strong class="text-[#e6edf3] block mb-1">Live-App direkt nutzen:</strong>
-                        Scannen Sie den QR-Code mit Ihrem Smartphone, um FlowLine direkt auf Render aufzurufen.
+                    <div class="mt-4 pt-4 border-t border-[#30363d] flex flex-col gap-4">
+                        <div class="flex flex-col gap-2">
+                            <strong class="text-[#e6edf3] text-sm">Web-Anwendung Live ausprobieren:</strong>
+                            <div>
+                                <a href="https://farzaneh-soghani-flowline.onrender.com" target="_blank" class="inline-block">
+                                    <img src="https://img.shields.io/badge/Live-FlowLine-brightgreen?logo=render" alt="Live FlowLine">
+                                </a>
+                            </div>
+                            <a href="https://farzaneh-soghani-flowline.onrender.com" target="_blank" class="text-blue-400 hover:underline break-all font-mono text-xs">
+                                farzaneh-soghani-flowline.onrender.com
+                            </a>
+                        </div>
+
+                        <div class="flex items-center gap-3 bg-[#161b22] p-3 rounded-lg border border-[#30363d]">
+                            <img src="QR-Code-FlowLine.png" alt="FlowLine QR Code" class="w-16 h-16 bg-white p-1 rounded border border-[#30363d] flex-shrink-0">
+                            <div class="text-xs text-[#8b949e]">
+                                <span class="text-[#e6edf3] font-medium block">Direkt auf dem Smartphone öffnen:</span>
+                                Scannen Sie einfach den QR-Code mit Ihrer Handykamera.
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Zweite Karte: Game -->
+                <div class="bg-[#161b22] border border-[#30363d] rounded-lg p-5 shadow-md hover:border-[#58a6ff] transition">
+                    <h3 class="text-lg font-bold text-[#58a6ff] mb-2">Game (Java Konsolenspiel)</h3>
+                    <p class="text-sm text-[#8b949e] mb-3">Ein kleines Java-Konsolenspiel für zwei Spieler mit beweglichen Spielsteinen. Das Ziel ist es, beide Steine durch strategische Züge als Erster ins Ziel zu bringen.</p>
+                    
+                    <div class="text-xs font-mono text-[#58a6ff] bg-[#0d1117] px-3 py-1.5 rounded inline-block border border-[#30363d] mb-4">
+                        Tech Stack: Java 17, Object-Oriented Programming (OOP)
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-[#30363d] flex flex-col gap-4">
+                        <div class="flex flex-col gap-2">
+                            <strong class="text-[#e6edf3] text-sm">Quellcode ansehen:</strong>
+                            <div>
+                                <a href="https://github.com/farzaneh-soghani/Game" target="_blank" class="inline-block">
+                                    <img src="https://img.shields.io/badge/GitHub-Repository-6f42c1?logo=github" alt="GitHub Repository">
+                                </a>
+                            </div>
+                            <a href="https://github.com/farzaneh-soghani/Game" target="_blank" class="text-blue-400 hover:underline break-all font-mono text-xs">
+                                github.com/farzaneh-soghani/Game
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dritte Karte: jobtracker-oop-cli -->
+                <div class="bg-[#161b22] border border-[#30363d] rounded-lg p-5 shadow-md hover:border-[#58a6ff] transition">
+                    <h3 class="text-lg font-bold text-[#58a6ff] mb-2">jobtracker-oop-cli</h3>
+                    <p class="text-sm text-[#8b949e] mb-3">Objektorientierte Bewerbungsverwaltung mit Follow-up System, automatischer JSON-Persistenz, flexiblem Datums-Parsing und professionellen CLI-Tabellen.</p>
+                    
+                    <div class="text-xs font-mono text-[#58a6ff] bg-[#0d1117] px-3 py-1.5 rounded inline-block border border-[#30363d] mb-4">
+                        Tech Stack: Python 3.11+, OOP, JSON, python-dateutil, Rich CLI
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-[#30363d] flex flex-col gap-4">
+                        <div class="flex flex-col gap-2">
+                            <strong class="text-[#e6edf3] text-sm">Quellcode auf GitLab ansehen:</strong>
+                            <div>
+                                <a href="https://gitlab.com/farzanehsoghani/jobtracker-oop-cli" target="_blank" class="inline-block">
+                                    <img src="https://img.shields.io/badge/GitLab-Repository-orange?logo=gitlab" alt="GitLab Repository">
+                                </a>
+                            </div>
+                            <a href="https://gitlab.com/farzanehsoghani/jobtracker-oop-cli" target="_blank" class="text-blue-400 hover:underline break-all font-mono text-xs">
+                                gitlab.com/farzanehsoghani/jobtracker-oop-cli
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
+        <!-- Fähigkeiten (Skills) Sektion -->
         <section>
             <h2 class="text-xl font-semibold border-b border-[#30363d] pb-2 mb-4 text-[#f0f6fc]">Skills</h2>
             <ul class="grid grid-cols-1 gap-2 text-sm text-[#8b949e]">
-                <li><strong class="text-[#e6edf3]">Backend:</strong> Python, Flask, SQLAlchemy</li>
-                <li><strong class="text-[#e6edf3],">Frontend:</strong> HTML5, CSS3, JavaScript, Jinja2</li>
-                <li><strong class="text-[#e6edf3]">Tools & DevOps:</strong> Git, GitHub Actions, Render, Pytest</li>
+                <li><strong class="text-[#e6edf3]">Backend & Programming:</strong> Python, Flask, SQLAlchemy, Java 17, Object-Oriented Programming (OOP)</li>
+                <li><strong class="text-[#e6edf3]">Frontend:</strong> HTML5, CSS3, JavaScript, Jinja2</li>
+                <li><strong class="text-[#e6edf3]">Tools & DevOps:</strong> Git, GitHub, GitLab, GitHub Actions, Render, Pytest</li>
             </ul>
         </section>
 
+        <!-- Fußzeile (Footer) -->
         <footer class="border-t border-[#30363d] pt-6 text-sm text-[#8b949e] flex flex-col sm:flex-row justify-between items-center gap-4">
             <p>Lassen Sie uns in Verbindung treten!</p>
             <div class="flex gap-4">
