@@ -1,6 +1,16 @@
-# Portfolio von Farzaneh Soghani
+# Portfolio von Farzaneh Soghani  
+## Willkommen in meinem GitHub-Repository für mein persönliches Entwickler-Portfolio! Diese Website dient als digitale Visitenkarte und präsentiert meine Projekte, technischen Fähigkeiten und meinen Werdegang als Softwareentwicklerin.  
+---
 
-Willkommen in meinem GitHub-Repository für mein persönliches Entwickler-Portfolio! Diese Website dient als digitale Visitenkarte und präsentiert meine Projekte, technischen Fähigkeiten und meinen Werdegang als Softwareentwicklerin.
+## 🌐 Live-Portfolio
+
+* **Live-Ansicht:** [(https://farzaneh-soghani.github.io)](https://farzaneh-soghani.github.io/portfolio/)
+* **Direkt auf dem Smartphone öffnen:** 
+  > Scannen Sie einfach den QR-Code mit Ihrer Handykamera, um das Portfolio direkt auf Ihrem Mobiltelefon anzusehen.
+  
+  <img src="QR-Code-Portfolio.png" alt="Portfolio QR Code" width="120" style="background-color: white; padding: 4px; border-radius: 8px;">
+
+---
 
 ---
 
